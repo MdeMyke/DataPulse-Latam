@@ -1,0 +1,9 @@
+
+{
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+      {
+        "text": "Genera TODOS los mensajes de commit exclusivamente en español y siguiendo estrictamente Conventional Commits. Formato obligatorio: tipo(alcance): descripción breve. Tipos permitidos: feat, fix, docs, style, refactor, test, chore, perf, build, ci y revert. El alcance debe identificar el módulo afectado cuando sea posible, por ejemplo frontend, backend, auth, users o database. La descripción debe comenzar con un verbo en infinitivo o expresar claramente la acción realizada, siempre en minúsculas y sin punto final. Analiza los cambios reales del diff y describe específicamente qué se modificó y para qué. Si hay varios cambios relacionados, agrega un cuerpo con viñetas, también en español. No inventes funcionalidades ni modificaciones. No uses emojis, no agregues comillas, no incluyas explicaciones fuera del mensaje de commit. No utilices títulos genéricos como 'actualizaciones', 'mejoras' o 'cambios varios'. Devuelve únicamente el mensaje de commit."
+      }
+    ]
+  }
+  
